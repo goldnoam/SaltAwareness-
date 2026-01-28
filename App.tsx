@@ -107,9 +107,17 @@ const App: React.FC = () => {
       />
       
       <main className="flex-grow container mx-auto px-4 py-8 max-w-5xl">
-        {/* Google AdSense Placeholder */}
+        {/* Google AdSense Area */}
         <div className="w-full h-24 bg-black/10 border border-dashed border-white/20 flex items-center justify-center mb-8 rounded-xl overflow-hidden">
-          <span className="text-xs opacity-50 uppercase tracking-widest font-bold">Advertisement Space - Google AdSense</span>
+          <ins className="adsbygoogle"
+               style={{ display: 'block' }}
+               data-ad-client="ca-pub-0274741291001288"
+               data-ad-slot="auto"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>
+               (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
         </div>
 
         <section className="mb-12 text-center" aria-labelledby="main-heading">
